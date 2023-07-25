@@ -6,7 +6,7 @@ from base_caching import BaseCaching
 
 class MRUCache(BaseCaching):
     """
-    FIFOCache defines a FIFO caching system
+    MRU Cache defines a MRU caching system
     """
 
     def __init__(self):
